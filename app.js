@@ -10,7 +10,7 @@ app.get('/', function(req, res){
     res.render('home',
         {
             title: 'Docker Continuous Integration',
-            message: 'Hello there!'
+            message: 'Hello there!  This is an update'
         });
 });
 
